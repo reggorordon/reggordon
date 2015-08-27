@@ -3,5 +3,6 @@ class PagesController < ApplicationController
     end
     def about
     end
-    
+    def carousel
+    end
 end
