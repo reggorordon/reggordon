@@ -36,7 +36,7 @@ gem 'bootstrap-sass', '3.3.5'
 
 #use font awesome libraries
 gem 'font-awesome-sass', '4.2.0'
-#for 
+
 gem 'lightbox2-rails'
 gem 'mail_form'
 gem 'simple_form'
@@ -63,4 +63,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
