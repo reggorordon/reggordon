@@ -1,6 +1,7 @@
 <script>
 $(document).ready(function() {
-	$('.zoom-gallery').magnificPopup({
+	$('.zoom-gallery').magnificPopup
+	({
 		delegate: 'a',
 		type: 'image',
 		closeOnContentClick: false,
