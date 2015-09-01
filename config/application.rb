@@ -22,10 +22,6 @@ module Workspace
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    require 'action_controller/railtie'
-require 'action_mailer/railtie'
-require 'active_model/railtie'
-require 'sprockets/railtie'
-require 'rails/test_unit/railtie'
+    config.assets.initialize_on_precompile = false
   end
 end
